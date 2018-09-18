@@ -1,0 +1,46 @@
+
+
+#contenedor {
+    margin: auto;
+    display: flex;
+     
+}
+
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 1px;
+}
+
+.dropdown li a{
+    padding: 15px 20px;
+    display: block;
+    background-color:yellow;
+}
+
+
+.dropdown > li{
+    float: left;
+}
+
+.dropdown li ul{
+    display: none;
+    position: absolute;
+} 
+
+.dropdown li ul li {
+    position: relative;
+}
+
+
+.desplegable li a:hover{
+    background-color: #9c8aa5;
+    color: #ffffff;
+    font-size: 18px;
+}
+.dropdown li:hover > ul{
+    display: block;
+}
